@@ -1,0 +1,93 @@
+1) abc - This tiny module delivers the environment you need for creating abstract base classes.
+
+2) argparse - This module contains tools that make it easier to create user-friendly interfaces from the level of the command line.
+
+3) asyncio - This is a huge module that delivers the framework and environment for asynchronous programming. 
+    It was added to Python 3.4 as a temporary module and worked as an alternative to the popular framework called Twisted. 
+    In short, asyncio is handy if you want to create asynchronous, concurrent, and single-threaded code. 
+    The module launches a loop where the asynchronous code is executed as a task. 
+    The module executes another task when one task is inactive (for example, waiting for server response).
+
+4) base64 - This well-known module delivers a tool for coding and decoding binary code into a format that can be displayed - and the other way round.
+
+5) collections - This module offers specialized container data types that work as an alternative to basic contained types for general purposes such as dict, list, set and tuple.
+
+6) copy - Everyone uses this tiny module that contains tools for deep copying of container-type data. 
+    Its most famous function is deepcopy - if not for this function, copying lists and dictionaries would become torture for developers.
+
+7) csv - Delivers functionalities for exporting and importing tabular data in CSV format. 
+    The module allows developers to say “load data” or “save data” from a CSV file.
+
+8) datetime - A simple and one of the most popular modules in Python. 
+    It delivers tools that make it easier to work with dates and times. The most popular classes are datetime, timezone, and timedelta, but date,time, and tzinfo can also be helpful.
+
+9) decimal - The module delivers a data type called Decimal. 
+    Its main advantage is the correct rounding of decimal numbers which is extremely important in billing systems - even a slight distortion with several hundred thousand operations can change the final result significantly.
+
+10) functools - The functools module comes in handy for higher-order functions, 
+    i.e., the functions that act on or return other functions. 
+    You can treat any callable object as a function for this module.
+
+11) hashlib - This handy module implements a standard interface to numerous secure hash and message digest algorithms like the FIPS secure hash algorithms SHA1, SHA224, SHA256, SHA384, and SHA512 (defined in FIPS 180-2), as well as RSA’s MD5 algorithm (defined in Internet RFC 1321). 
+    Note the terminology: “secure hash” and “message digest” are interchangeable.
+
+12) http - This package collects several modules for working with the HyperText Transfer Protocol, 
+    such as http.client (low-level HTTP protocol client), 
+    http.server (includes basic HTTP server classes based on socketserver), 
+    http.cookies (with utilities for implementing state management with cookies) and 
+    http.cookiejar (that provides persistence of cookies).
+
+13) importlib - The package provides the implementation of the import statement (and the import() function) in Python source code. 
+    The components to implement import are exposed, making it easier for developers to create custom objects to participate in the import process.
+
+14) itertools - This useful module implements iterator building blocks inspired by constructs from APL, Haskell, and SML (all in a form that matches Python programs). 
+    It standardizes a core collection of quick, memory-efficient tools you can use on their own or combine to construct specialized tools efficiently in pure Python.
+
+15) inspect - The module offers several useful functions that help developers get information about live objects such as modules, classes, methods, functions, tracebacks, frame objects, and code objects in Python code. 
+    It provides four main functions: type checking, getting source code, inspecting classes and functions, and examining the interpreter stack. 
+    You can use it to retrieve the source code of a method, examine the contents of a class, or just get all the relevant information to display a detailed traceback.
+
+16) json - JSON (JavaScript Object Notation) is a lightweight data-interchange format that was inspired by JavaScript object literal syntax. 
+    The module json exposes an API that looks similar to the standard library marshal and pickle modules.
+
+17) logging - This module defines functions and classes that provide a flexible event-logging system for applications and libraries. 
+    It’s a good idea to use it because it ensures that all Python modules can log in - your application log may include your messages integrated with messages from third-party modules.
+
+18) math - This module gives developers access to the mathematical functions implemented directly in the C language. 
+    You can’t use them with complex numbers, which is good if you’re not looking to learn a lot of mathematics required to understand complex problems.
+
+19) multiprocessing - This handy package supports spawning processes with the help of an API similar to the threading module. 
+    It provides local and remote concurrency using sub processes instead of threads to side-step the Global Interpreter Lock. 
+    Developers use it to take full advantage of multiple processors on a given machine. 
+    It runs on both Unix and Windows.
+
+20) os - This module offers a portable method of using operating system-dependent functionality.
+
+21) pdb - This module defines an interactive source code debugger. 
+    It supports single stepping at the source line level, setting (conditional) breakpoints, an inspection of stack frames, source code listing, and more.
+
+22) random - This useful module implements pseudo-random number generators for various distributions. 
+    For example, you get a uniform selection from a range of integers. 
+    For sequences, there is a uniform selection of a random element (as well as a function to generate a random permutation of a list in place and for random sampling without replacement).
+
+23) re - This module provides regular expression matching operations similar to those you get in Perl. 
+    You can search Unicode and 8-bit strings, but they can’t be mixed.
+
+24) shutil - The module provides several high-level operations on files and collections of files, mainly functions that support file copying and removal.
+
+25) sys - The module offers access to variables used or maintained by the interpreter and functions that interact strongly with the interpreter.
+
+26) threading - This useful module builds higher-level threading interfaces on top of the lower-level _thread module.
+
+27) types - The module defines utility functions that support the dynamic creation of new types. 
+    It defines names for object types used by the standard Python interpreter but not exposed as builtins. 
+    It also offers additional type-related utility classes and functions that aren’t builtins.
+
+28) unittest - Originally inspired by JUnit, 
+    the module works similarly to major unit testing frameworks in other programming languages. 
+    It supports a broad range of functions: test automation, sharing of setup, shutdown code for tests, test aggregation into collections, and more.
+
+29) urllib - This handy package collects several modules for working with URLs: urllib.request (opening and reading URLs), urllib.error (includes exceptions raised by urllib.request), urllib.parse (for parsing URLs), and urllib.robotparser (for parsing robots.txt files).
+
+30) uuid - The module provides immutable UUID objects, as well as the following functions for generating version 1, 3, 4, and 5 UUIDs: uuid1(), uuid3(), uuid4(), uuid5().
+
